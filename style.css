@@ -1,0 +1,78 @@
+body {
+    font-family: "Jomhuria";
+}
+
+header {
+    background-color: #3a9595;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+#logo {
+    height: 200px;
+    background-color: #3a9595;
+}
+
+#head-nav {
+    flex: 1;
+    padding-top: 25px;
+}
+
+.navbar {
+    padding-top: 25px;
+}
+
+.nav-item-custom {
+    border-radius: 50px;
+    background-color: #65f2f2;
+    font-weight: bolder;
+    font-size:small;
+    padding: 5px 25px;
+}
+
+.nav-item-custom:hover {
+    background-color: #ffffff;
+}
+
+.nav-item-custom:hover a {
+    color: #3a9595;
+}
+
+.content p {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.content img {
+    width: 67%;
+}
+
+footer {
+    background-color: #3a9595;
+    padding: 20px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000;
+    font-size: larger;
+    font-weight: bold;
+}
+
+footer i {
+    padding: 0px 10px;
+}
+
+@media (min-width: 992px) {
+    header h1 {
+        font-size: 36px;
+    }
+
+    .content p {
+        font-size: 40px;
+    }
+}
